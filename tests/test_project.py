@@ -1,6 +1,6 @@
 import responses 
 
-from project.models import User
+from ..Project.models import User
 
 def test_home(client):
     response = client.get("/")
